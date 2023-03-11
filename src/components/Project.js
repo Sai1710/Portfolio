@@ -4,6 +4,7 @@ import DGSnap from "../assets/DiceGame.png";
 import MSnap from "../assets/Mapty.png";
 import FUSnap from "../assets/FeedbackUI.png";
 import GFSnap from "../assets/GitHubFinder.png";
+import HMSnap from "../assets/HouseMarketPlace.png";
 import colorSharp2 from "../assets/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -15,6 +16,12 @@ export const Projects = () => {
       description: "Leaflet Library",
       imgUrl: MSnap,
       Url: "https://mapty-project-lime.vercel.app/",
+    },
+    {
+      title: "House Marketplace",
+      description: "Firebase Database",
+      imgUrl: HMSnap,
+      Url: "https://house-marketplace-sai1710.vercel.app/",
     },
     {
       title: "Feedback UI",
